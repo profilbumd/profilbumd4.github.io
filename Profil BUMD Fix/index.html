@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+
+    <!-- ====================BOOTSRAP===================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Aplikasi Profil BUMD</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav containerbox">
+        <a href="#" class="nav__logo">Profil BUMD</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Beranda</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Tentang</a>
+            </li>
+            <li class="nav__item">
+              <a href="#discover" class="nav__link">Panduan</a>
+            </li>
+            <li class="nav__item">
+              <a href="#subscribe" class="nav__link">Input</a>
+            </li>
+          </ul>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <img src="assets/img/home1.jpg" alt="" class="home__img position-absolute start-o end-0" />
+
+        <div class="home__containerbox containerbox grid">
+          <div class="home__data">
+            <span class="home__data-subtitle">Halo entitas pemeriksaan!</span>
+            <h1 class="home__data-title">
+              Selamat datang <br />
+              di laman
+              <b
+                >Aplikasi <br />
+                Profil BUMD</b
+              >
+            </h1>
+            <a href="#discover" class="button">Panduan</a>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <span class="home__info-title">Input data profil BUMD</span>
+              <a href="#subscribe" class="button button--flex button--link home__info-button"> Mulai <i class="ri-arrow-right-line"></i> </a>
+            </div>
+
+            <div class="home__info-overlay">
+              <img src="assets/img/home2.jpg" alt="" class="home__info-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__containerbox containerbox grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Informasi Singkat Mengenai<br />
+              Aplikasi Profil BUMD
+            </h2>
+            <p class="about__description">
+              Aplikasi Profil BUMD merupakan sebuah aplikasi sederhana berbasis website untuk memudahkan entitas pemeriksaan / pemerintah daerah dalam melakukan input data terkait BUMD di masing-masing daerah. Aplikasi ini diharapkan dapat
+              meningkatkan efektivitas dan efisiensi pemenuhan permintaan data profil BUMD di lingkup kerja BPK Perwakilan Provinsi Jawa Tengah.
+            </p>
+            <a href="https://linktr.ee/profilbumd" target="_blank" class="button">Pelajari lebih lanjut</a>
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img src="assets/img/about1.jpg" alt="" class="about__img-one" />
+            </div>
+
+            <div class="about__img-overlay">
+              <img src="assets/img/about2.jpg" alt="" class="about__img-two" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DISCOVER ====================-->
+      <section class="discover section" id="discover">
+        <h2 class="section__title">
+          Panduan Penggunaan <br />
+          Aplikasi Profil BUMD
+        </h2>
+
+        <div class="discover__container containerbox swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== DISCOVER 1 ====================-->
+            <div class="discover__card swiper-slide">
+              <img src="assets/img/discover1.jpg" alt="" class="discover__img" />
+              <div class="discover__data">
+                <a href="https://drive.google.com/drive/folders/1kGpujNZ7X68R8CEMQEGTkHDz3a2JUj2F?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <h2 class="discover__title">Manual Book User</h2>
+                  <span class="discover__description">Buku panduan pengisian data profil BUMD bagi entitas pemeriksaan.</span>
+                </a>
+                </div>
+            </div>
+
+            <!--==================== DISCOVER 2 ====================-->
+            <div class="discover__card swiper-slide">
+              <img src="assets/img/discover2.jpg" alt="" class="discover__img" />
+              <div class="discover__data">
+                <a href="https://drive.google.com/drive/folders/1B4lLwAYYEtIiyQELOfiZq18E2df5l6fw?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <h2 class="discover__title">Video Tutorial User</h2>
+                  <span class="discover__description">Download video tutorial <br>pengisian data profil BUMD <br>bagi entitas pemeriksaan.</span>
+                </a>
+                </div>
+            </div>
+
+            <!--==================== DISCOVER 3 ====================-->
+            <div class="discover__card swiper-slide">
+              <img src="assets/img/discover3.jpg" alt="" class="discover__img" />
+              <div class="discover__data">
+                <a href="https://drive.google.com/drive/folders/1gT8hJ_Fl77yriOvxQNw1v9KnzlKoEdy1?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <h2 class="discover__title">Manual Book Admin</h2>
+                  <span class="discover__description">Buku panduan akses database profil BUMD bagi admin.</span>
+                </a>
+                </div>
+            </div>
+
+            <!--==================== DISCOVER 4 ====================-->
+            <div class="discover__card swiper-slide">
+              <img src="assets/img/discover4.jpg" alt="" class="discover__img" />
+              <div class="discover__data">
+                <a href="https://drive.google.com/drive/folders/1pwF5gpzdzvChMzrhY3nVQIVNdqoGlfM2?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <h2 class="discover__title">Video Tutorial Admin</h2>
+                  <span class="discover__description">Tutorial mengakses database <br>profil BUMD bagi admin.</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== VIDEO ====================-->
+      <section class="video section">
+        <h2 class="section__title video__title">Video Tutorial<br />Bagi Entitas Pemeriksaan</h2>
+
+        <div class="video__containerbox containerbox">
+          <p class="video__description">Berikut merupakan video tutorial pengisian data pada Aplikasi Profil BUMD bagi entitas pemeriksaan.</p>
+
+          <div class="video__content">
+            <video id="video-file">
+              <source src="assets/video/video.mp4" type="video/mp4" />
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+              <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+       <!--==================== INPUT ====================-->
+       <section class="subscribe section" id="subscribe">
+        <h2 class="section__title input__title">Form Input Data <br />
+          Profil BUMD</h2>
+
+        <div class="video__containerbox containerbox">
+          <p class="video__description">Input data profil BUMD Anda pada field di bawah ini.</p>
+        </div>
+        
+        <div class="row justify-content-center">
+          <div class="col-9">
+            <form class="input__form" name="profilBumd">
+              <div class="form-floating">
+                <select class="teks form-select mb-3" id="jenisInput" aria-label="Floating label select example" name="jenisInput" required>
+                  <option selected>Pilih salah satu jenis input</option>
+                  <option value="Penambahan">Penambahan</option>
+                  <option value="Perubahan">Perubahan</option>
+                </select>
+                <label for="jenisInput">Jenis Input</label>
+              </div>
+              <div class="form-floating">
+                <select class="teks form-select mb-3" id="entitasPemeriksaan" aria-label="Floating label select example" name="entitasPemeriksaan" required>
+                  <option selected>Pilih salah satu entitas pemeriksaan</option>
+                  <option value="Provinsi Jawa Tengah">Provinsi Jawa Tengah</option>
+                  <option value="Kabupaten Banjarnegara">Kabupaten Banjarnegara</option>
+                  <option value="Kabupaten Banyumas">Kabupaten Banyumas</option>
+                  <option value="Kabupaten Batang">Kabupaten Batang</option>
+                  <option value="Kabupaten Blora">Kabupaten Blora</option>
+                  <option value="Kabupaten Boyolali">Kabupaten Boyolali</option>
+                  <option value="Kabupaten Brebes">Kabupaten Brebes</option>
+                  <option value="Kabupaten Cilacap">Kabupaten Cilacap</option>
+                  <option value="Kabupaten Demak">Kabupaten Demak</option>
+                  <option value="Kabupaten Grobogan">Kabupaten Grobogan</option>
+                  <option value="Kabupaten Jepara">Kabupaten Jepara</option>
+                  <option value="Kabupaten Karanganyar">Kabupaten Karanganyar</option>
+                  <option value="Kabupaten Kebumen">Kabupaten Kebumen</option>
+                  <option value="Kabupaten Kendal">Kabupaten Kendal</option>
+                  <option value="Kabupaten Klaten">Kabupaten Klaten</option>
+                  <option value="Kabupaten Kudus">Kabupaten Kudus</option>
+                  <option value="Kabupaten Magelang">Kabupaten Magelang</option>
+                  <option value="Kabupaten Pati">Kabupaten Pati</option>
+                  <option value="Kabupaten Pekalongan">Kabupaten Pekalongan</option>
+                  <option value="Kabupaten Pemalang">Kabupaten Pemalang</option>
+                  <option value="Kabupaten Purbalingga">Kabupaten Purbalingga</option>
+                  <option value="Kabupaten Purworejo">Kabupaten Purworejo</option>
+                  <option value="Kabupaten Rembang">Kabupaten Rembang</option>
+                  <option value="Kabupaten Semarang">Kabupaten Semarang</option>
+                  <option value="Kabupaten Sragen">Kabupaten Sragen</option>
+                  <option value="Kabupaten Sukoharjo">Kabupaten Sukoharjo</option>
+                  <option value="Kabupaten Tegal">Kabupaten Tegal</option>
+                  <option value="Kabupaten Temanggung">Kabupaten Temanggung</option>
+                  <option value="Kabupaten Wonogiri">Kabupaten Wonogiri</option>
+                  <option value="Kabupaten Wonosobo">Kabupaten Wonosobo</option>
+                  <option value="Kota Magelang">Kota Magelang</option>
+                  <option value="Kota Pekalongan">Kota Pekalongan</option>
+                  <option value="Kota Salatiga">Kota Salatiga</option>
+                  <option value="Kota Semarang">Kota Semarang</option>
+                  <option value="Kota Surakarta">Kota Surakarta</option>
+                  <option value="Kota Tegal">Kota Tegal</option>
+                </select>
+                <label for="entitasPemeriksaan">Entitas Pemeriksaan</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="teks form-control" id="namaBumd" placeholder="namaBumd" name="namaBumd" required />
+                <label for="floatingInput">Nama BUMD</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="teks form-control" placeholder="alamat" id="alamat" name="alamat" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Alamat</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="teks form-control" id="bidangUsaha" placeholder="bidangUsaha" name="bidangUsaha" required />
+                <label for="floatingInput">Bidang Usaha</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="teks form-control" placeholder="tujuanBumd" id="tujuanBumd" name="tujuanBumd" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Tujuan BUMD</label>
+              </div>
+              <div class="teks form-floating mb-3">
+                <input type="date" class="teks form-control" id="tanggalPendirian" placeholder="tanggalPendirian" name="tanggalPendirian" required />
+                <label for="floatingInput">Tanggal Pendirian</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class=" teks form-control" id="dasarPendirian" placeholder="dasarPendirian" name="dasarPendirian" required />
+                <label for="floatingInput">Dasar Pendirian</label>
+              </div>
+              <div class="teks input-group flex-nowrap mb-3">
+                <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                <input type="text" class=" teks form-control" id="modalDasar" placeholder="Modal Dasar" name="modalDasar" required />
+              </div>
+              <div class="row g-2">
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="jumlahDireksi" placeholder="jumlahDireksi" name="jumlahDireksi" required />
+                    <label for="floatingInput">Jumlah Direksi</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="jumlahDireksiMantanPNS" placeholder="jumlahDireksiMantanPNS" name="jumlahDireksiMantanPNS" required />
+                    <label for="floatingInput">Jumlah Direksi Mantan PNS</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-2">
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="jumlahKaryawan" placeholder="jumlahKaryawan" name="jumlahKaryawan" required />
+                    <label for="floatingInput">Jumlah Karyawan</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="jumlahDewanPengawas" placeholder="jumlahDewanPengawas" name="jumlahDewanPengawas" required />
+                    <label for="floatingInput">Jumlah Dewan Pengawas</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="riwayatPengurus" id="riwayatPengurus" name="riwayatPengurus" style="height: 120px"></textarea>
+                <label for="floatingTextarea2">Riwayat Pengurus</label>
+              </div>
+              <div class="teks form-floating">
+                <select class="teks form-select mb-3" id="tahunAnggaran" aria-label="Floating label select example" name="tahunAnggaran" required>
+                  <option selected>Pilih tahun anggaran berikut</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                </select>
+                <label for="tahunAnggaran">Tahun Anggaran</label>
+              </div>
+              <div class=" teks input-group flex-nowrap mb-3">
+                <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                <input type="text" class="teks form-control" id="totalAset" placeholder="Total Aset" name="totalAset" required />
+              </div>
+              <div class="row g-2">
+                <div class="col-md">
+                  <div class="teks input-group flex-nowrap mb-3">
+                    <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                    <input type="text" class="teks form-control" id="kewajiban" placeholder="Kewajiban" name="kewajiban" required />
+                  </div>
+                </div>
+                <div class="teks col-md">
+                  <div class="input-group flex-nowrap mb-3">
+                    <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                    <input type="text" class="teks form-control" id="ekuitas" placeholder="Ekuitas" name="ekuitas" required />
+                  </div>
+                </div>
+              </div>
+              <div class="teks row g-2">
+                <div class="col-md">
+                  <div class="input-group flex-nowrap mb-3">
+                    <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                    <input type="text" class="teks teks form-control" id="pendapatan" placeholder="Pendapatan" name="pendapatan" required />
+                  </div>
+                </div>
+                <div class="teks col-md">
+                  <div class="input-group flex-nowrap mb-3">
+                    <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                    <input type="text" class="teks form-control" id="biaya" placeholder="Biaya" name="biaya" required />
+                  </div>
+                </div>
+              </div>
+              <div class="teks row g-2">
+                <div class="col-md">
+                  <div class="input-group flex-nowrap mb-3">
+                    <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                    <input type="text" class="teks form-control" id="laba" placeholder="Laba" name="laba" required />
+                  </div>
+                </div>
+                <div class="teks col-md">
+                  <div class="input-group flex-nowrap mb-3">
+                    <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                    <input type="text" class="teks form-control" id="rugi" placeholder="Rugi" name="rugi" required />
+                  </div>
+                </div>
+              </div>
+              <div class="teks input-group flex-nowrap mb-3">
+                <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                <input type="text" class="teks form-control" id="kontribusiPemda" placeholder="Kontribusi Pemda Terhadap BUMD" name="kontribusiPemda" required /> 
+              </div>
+              <div class="teks input-group flex-nowrap mb-3">
+                <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                <input type="text" class="teks form-control" id="kontribusiBumd" placeholder="Kontribusi BUMD (Dividen) Terhadap PAD" name="kontribusiBumd" required />
+              </div>
+              <div class="teks input-group flex-nowrap mb-3">
+                <span class="teks input-group-text" id="addon-wrapping">Rp</span>
+                <input type="text" class="teks form-control" id="penyertaanModalPemerintah" placeholder="Penyertaan Modal Pemerintah" name="penyertaanModalPemerintah" required />
+              </div>
+              <div class="teks form-floating">
+                <select class="teks form-select mb-3" id="statusBumd" aria-label="Floating label select example" name="statusBumd" required>
+                  <option selected>Pilih salah satu status berikut</option>
+                  <option value="Beroperasi">Beroperasi</option>
+                  <option value="Tidak Beroperasi">Tidak Beroperasi</option>
+                </select>
+                <label for="statusBumd">Status BUMD</label>
+              </div>
+              <label class="mb-2" for="pemeriksaanBpkp">Hasil Pemeriksaan BPKP</label>
+              <div class="pemeriksaanBpkp row g-2">
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="kesehatanKeuangan" placeholder="kesehatanKeuangan" name="kesehatanKeuangan" />
+                    <label for="floatingInput">Kesehatan Keuangan</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="skorKesehatan" placeholder="skorKesehatan" name="skorKesehatan" />
+                    <label for="floatingInput">Skor Kesehatan Keuangan</label>
+                  </div>
+                </div>
+              </div>
+              <div class="pemeriksaanBpkp row g-2">
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="kinerja" placeholder="kinerja" name="kinerja" />
+                    <label for="floatingInput">Kinerja</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="skorKinerja" placeholder="skorKinerja" name="skorKinerja" />
+                    <label for="floatingInput">Skor Kinerja</label>
+                  </div>
+                </div>
+              </div>
+              <label class="mb-2" for="pemeriksaanKap">Pemeriksaan Atas Laporan Keuangan</label>
+              <div class="pemeriksaanKap row g-2">
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="kap" placeholder="kap" name="kap" required />
+                    <label for="floatingInput">Nama Kantor Akuntan Publik</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="opini" placeholder="opini" name="opini" required />
+                    <label for="floatingInput">Opini</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="keterangan" id="keterangan" style="height: 120px" name="keterangan"></textarea>
+                <label for="floatingTextarea2">Keterangan</label>
+              </div>
+              <label class="mb-2" for="identitasPengisi">Identitas Pengisi Data</label>
+              <div class="identitasPengisi row g-2">
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="namaLengkap" placeholder="namaLengkap" name="namaLengkap" />
+                    <label for="floatingInput">Nama Lengkap</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="noHp" placeholder="noHp" name="noHp" />
+                    <label for="floatingInput">Nomor HP</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10-md">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required />
+                  <label class="form-check-label" for="invalidCheck"> Saya yakin bahwa data yang diinput telah benar dan sesuai </label>
+                  <div class="invalid-feedback">Anda harus memberikan checklist terlebih dahulu sebelum mengirim data.</div>
+                </div>
+              </div>
+              <div class="alert alert-success alert-dismissible fade show d-none my-alert mt-3" role="alert">
+                <strong>Terimakasih!</strong> Data Anda telah berhasil terkirim. Silakan melakukan input lagi apabila data BUMD pada entitas Anda lebih dari satu. Jangan lupa mengirimkan scan dokumen sumber data ke email <strong>subbagtu.pwkjateng@bpk.go.id</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+              <button type="submit" class="btn btn-primary btn-kirim mt-3">Kirim</button>
+
+              <button class="teks button btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </section>
+
+     <br><br><br><br><br>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__containerbox containerbox grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">Profil BUMD</h3>
+            <p class="footer__description">
+              Input data profil BUMD <br />
+              menjadi lebih mudah menggunakan<br />
+              Aplikasi Profil BUMD
+            </p>
+            <!-- <div>
+              <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                <i class="ri-facebook-box-fill"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="footer__social">
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                <i class="ri-youtube-fill"></i>
+              </a>
+            </div> -->
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Bantuan</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="https://linktr.ee/profilbumd" target="_blank" class="footer__link">Panduan</a>
+              </li>
+              <li class="footer__item">
+                <a href="https://docs.google.com/document/d/1JtNetYL7g6U_Z53JnNIcbHx8Ca9bw70LyoW8soyV66E/edit?usp=sharing" target="_blank" class="footer__link">FAQs</a>
+              </li>
+              <li class="footer__item">
+                <a href="https://docs.google.com/document/d/1ddMtk6yMQSA8OgmJiflLN7rez6aQFw-CAdQmAQu8S7c/edit?usp=sharing" target="_blank" class="footer__link">Hubungi Kami</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="footer__data">
+            <h3 class="footer__subtitle">Company</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Team</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Plan y Pricing</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Become a member</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Support</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">FAQs</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Support Center</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+       
+      </div> 
+      </div>
+    <br><br><br><br>
+    <div class="grid footer__end">
+      <div class="footer__rights">
+        <p class="footer__copy">&#169; 2021 Subbag TU Kalan. 
+          <a href="https://jateng.bpk.go.id/" target="_blank"><b>BPK Perwakilan Provinsi Jawa Tengah.</b></a></p>
+      </div>
+    </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycby8FutcHtANbE98Sv5t1n4IdsznJtdgUkHCXcrJnwpHnIGq1rfFYcJmTlAN-ptoSkR3/exec";
+      const form = document.forms["profilBumd"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+            myAlert.classList.toggle("d-none");
+            // reset formnya
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    
+  </body>
+</html>
